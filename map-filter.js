@@ -21,9 +21,10 @@ const numbers = [3, 4, 5, 6, 7, 8];
 // const result = numbers.map(x => x * x);
 
 // console.log(result);
+// find returns element but filter returns array
 
-const bigger = numbers.filter( x => x < 3);
+const bigger = numbers.filter((x) => x < 3);
 
-const isThere = numbers.find(x => x > 5);
+const isThere = numbers.find((x) => x > 5);
 
 console.log(isThere);
